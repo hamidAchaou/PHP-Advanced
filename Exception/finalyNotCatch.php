@@ -8,8 +8,6 @@ function divide($dividend, $divisor) {
 
 try {
   echo divide(5, 0);
-} catch(Exception $e) {
-  echo "Unable to divide. ";
 } finally {
   echo "Process complete.";
 }
